@@ -1,0 +1,13 @@
+Task: Different types of variables
+Create 4 variables and assign them appropriate values:
+
+firstValue – any number (e.g., 10).
+secondValue – any text (e.g., "JavaScript").
+combinedValue – a number combined with text (e.g., 5 and " five").
+booleanValue – a logical (Boolean) value (true or false).
+Add a comment to each variable describing its data type (you can use typeof in the console).
+
+Print in the console:
+
+The values of all the variables.
+The data types of each variable.
