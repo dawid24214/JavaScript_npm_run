@@ -1,0 +1,25 @@
+Task: Working with Arrays
+
+Part 1: Array of Numbers
+Define an array in the variable numbers containing the following consecutive numbers:
+3, 7, 12, 19, 25.
+
+Print in the terminal:
+
+The third element of the array.
+The last element of the array (do not directly use its index—use the length property of the array).
+The length of the array.
+Part 2: Dynamic Array
+Define an empty array in the variable fruits.
+Then add the following in sequence:
+Apple
+Banana
+Cherry
+Mango
+Orange
+
+Print in the terminal:
+
+The second element of the array.
+The second-to-last element of the array (use the array’s length).
+The length of the array.
