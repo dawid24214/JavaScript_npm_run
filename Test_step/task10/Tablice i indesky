@@ -1,0 +1,7 @@
+Zadanie 1: Tablice i indeksy
+Stwórz tablicę colors, która będzie zawierać nazwy kolorów:
+Red, Green, Blue, Yellow, Black.
+Wypisz w konsoli:
+Pierwszy kolor.
+Ostatni kolor (użyj właściwości długości tablicy, aby go znaleźć).
+Zmień trzeci kolor w tablicy na Purple i wypisz zmienioną tablicę w konsoli.
