@@ -12,3 +12,8 @@ if (cities.includes('Tokyo')){
 }else {
     console.log('Tokyo is not in the list');
 }
+// Zadanie 2
+const students = ['Anna', 'John','Kate','Mark','Sophie'];
+const removeStudents = students.splice(1,3);
+console.log(students);
+console.log(removeStudents);
