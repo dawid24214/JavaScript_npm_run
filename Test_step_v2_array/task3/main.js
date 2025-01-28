@@ -6,3 +6,5 @@
 // Podpowiedź: Możesz dostosować metodę sortującą, aby prawidłowo sortować liczby.
 
 const mixedNumbers = [50, 10, 40, 20, 30];
+mixedNumbers.sort((a, b) => a - b);
+console.log(mixedNumbers);
