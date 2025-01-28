@@ -6,3 +6,11 @@ const numbers = [
 console.log(numbers [0][1]);
 console.log(numbers[1]);
 console.log(numbers[2].length);
+
+const mixedValues = [
+        ['Keli', 'Walter', 'Heriberto' ] ,
+    [1, 2, 3, 4, 5, 6]
+];
+console.log(mixedValues [0] [2]);
+console.log(mixedValues [1][4]);
+console.log(mixedValues[1].length);
