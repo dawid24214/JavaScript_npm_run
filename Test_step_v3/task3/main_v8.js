@@ -31,9 +31,43 @@
 // }
 
 
-const programmingLanguages = ['JavaScript', 'TypeScript', 'Go' ];
+// const programmingLanguages = ['JavaScript', 'TypeScript', 'Go' ];
+//
+//
+// for (let counter = 0; counter < programmingLanguages.length; counter++) {
+//     console.log(programmingLanguages[counter]);
+// }
 
 
-for (let counter = 0; counter < programmingLanguages.length; counter++) {
-    console.log(programmingLanguages[counter]);
-}
+// const numbers = [];
+//
+// for (let counter = 1; counter >= 9; counter += 2) {
+//     numbers.push(counter);
+// }
+// console.log(numbers);
+
+// const programmingLanguages = ['JavaScript', 'TypeScript', 'Go'];
+//
+// for (const programmingLanguage of programmingLanguages) {
+//     console.log(programmingLanguage);
+// }
+//
+
+// const programmingLanguages = ['JavaScript' , 'TypeScript', 'Go'];
+//
+// for (let counter = 0; counter < programmingLanguages.length; counter++){
+//     console.log(programmingLanguages[counter]);
+// }
+
+// let i = 0;
+// while (i != 5){
+//     console.log('Nie jestem piątką');
+//     i = Math.floor(Math.random() * 10);
+//
+// }
+
+// floor - zaokrąglenie w dół
+// ceil - zaokrąglenie do góry
+// round - zaokrągla do najbliższej liczby
+// random to losowa liczba z przedziału 0-1.
+// pow(value, power) - potęgowanie
