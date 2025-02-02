@@ -60,7 +60,7 @@
 // }
 
 // let i = 0;
-// while (i != 5){
+// while (i !== 5){
 //     console.log('Nie jestem piątką');
 //     i = Math.floor(Math.random() * 10);
 //
@@ -71,3 +71,16 @@
 // round - zaokrągla do najbliższej liczby
 // random to losowa liczba z przedziału 0-1.
 // pow(value, power) - potęgowanie
+
+// let i;
+// do{
+//     console.log('Nie jestem piątką');
+//     i = Math.floor(Math.random() * 10);
+// }while (i !== 5);
+
+
+// for (let row = 0; row < 10; row++){
+//     for (let col = row; col < 10; col++){
+//         console.log(`Wiersz = ${row}`, `Kolumna=${col}`);
+//     }
+// }
