@@ -99,3 +99,8 @@
 // //Pętla zagnieżdżona – iteracja po macierzy
 
 
+//Pętla z wieloma zmiennymi sterującymi
+
+for (let i = 0 , j = 10; i < j; i++, j--) {
+    console.log(`i= ${i} , j: ${j}`);
+}
