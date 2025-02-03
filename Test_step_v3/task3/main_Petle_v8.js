@@ -114,3 +114,17 @@
 //     }
 //     console.log(text[i]);
 // }
+
+// pętla z warunkiem przerwania – obliczanie silni z ograniczeniem
+let factorial = 1;
+const limit = 1000;
+for (let i = 1; i <= 10; i++){
+    factorial *= i;
+    console.log(`Silnia ${i} wynosi: ${factorial}`);
+
+    if (factorial > limit){
+        console.log(`Przekroczono limit (${limit}) przy i = ${i}`);
+        break;
+    }
+}
+
