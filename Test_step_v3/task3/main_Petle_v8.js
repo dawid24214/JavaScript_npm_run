@@ -98,9 +98,19 @@
 // }
 // //Pętla zagnieżdżona – iteracja po macierzy
 
-
+// -----------------------------------------
 //Pętla z wieloma zmiennymi sterującymi
 
-for (let i = 0 , j = 10; i < j; i++, j--) {
-    console.log(`i= ${i} , j: ${j}`);
-}
+// for (let i = 0 , j = 10; i < j; i++, j--) {
+//     console.log(`i= ${i} , j: ${j}`);
+// }
+
+
+// //Pętla z wykorzystaniem instrukcji continue
+// const text = 'javascript';
+// for (let i = 0; i < text.length; i++){
+//     if ('aeiou'.includes(text[i])){
+//         continue;
+//     }
+//     console.log(text[i]);
+// }
