@@ -115,16 +115,94 @@
 //     console.log(text[i]);
 // }
 
-// pętla z warunkiem przerwania – obliczanie silni z ograniczeniem
-let factorial = 1;
-const limit = 1000;
-for (let i = 1; i <= 10; i++){
-    factorial *= i;
-    console.log(`Silnia ${i} wynosi: ${factorial}`);
+// // pętla z warunkiem przerwania – obliczanie silni z ograniczeniem
+// let factorial = 1;
+// const limit = 1000;
+// for (let i = 1; i <= 10; i++){
+//     factorial *= i;
+//     console.log(`Silnia ${i} wynosi: ${factorial}`);
+//
+//     if (factorial > limit){
+//         console.log(`Przekroczono limit (${limit}) przy i = ${i}`);
+//         break;
+//     }
+// }
 
-    if (factorial > limit){
-        console.log(`Przekroczono limit (${limit}) przy i = ${i}`);
-        break;
-    }
-}
+// for (let i = 1; i <= 10; i++){
+//     console.log('Liczba: ' + i);
+// }
+// // wynik wykaz pola liczba od 1 do 10
+//
 
+// const imiona = ['Dawid', 'Aron' , 'Kasia' , 'Ola'];
+//
+// for (let i = 0; i < imiona.length; i++) {
+//     console.log('czesc,' + imiona[i] + '!');
+// }
+//
+// const liczba = [5, 10, 15, 20, 25];
+// for (let i = 0; i < liczba.length; i++){
+//     console.log('Element' + i + ': ' + liczba[i]);
+// }
+//
+
+//
+// const liczby = [2, 4, 6, 8, 10];
+// let suma = 0;
+//
+// for (let  i = 0; i <liczby.length; i++){
+//     suma += liczby[i];
+// }
+//
+// console.log('Suma liczby w tablicy' + suma);
+
+// let liczby = [1, 2, 3, 4, 5];
+// for (let i = 0; i <liczby.length; i++) {
+//     liczby[i] *=2;
+// }
+// console.log(liczby);
+//
+//
+// const liczby [10, 20, 30, 40];
+// for (const liczba of liczby){
+//     console.log(liczba);
+// }
+
+// const tekst = 'Hello';
+// for (const litera of  tekst){
+//     console.log(litera);
+// }
+
+// for in
+
+// const owoce = ['Jabłko', 'Bannan', 'Gruszka'];
+//
+// for (const index in owoce){
+//     console.log(`Indeks: ${index}, Wartość: ${owoce[index]}`);
+// }
+//
+//
+// Wynik
+// Indeks: 0, Wartość: Jabłko
+// Indeks: 1, Wartość: Banan
+// Indeks: 2, Wartość: Gruszka
+
+
+
+
+
+// // for in
+//
+// const osoba ={
+//     imie: 'Dawid',
+//     wiek: 25,
+//     zawod:'Programista'
+// };
+// for (const klucz in osoba){
+//     console.log(`${klucz}: ${osoba[klucz]}`);
+// }
+// wynik
+// --------------------
+//     imie: Dawid
+// wiek: 25
+// zawod: Programista
