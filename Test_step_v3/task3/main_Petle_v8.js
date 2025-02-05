@@ -213,5 +213,8 @@
 //     i++;
 // }
 
-
-
+// let liczba = 0;
+// while (liczba !== 6){
+//     liczba = Math.floor(Math.random() * 10) + 1;
+//     console.log('Wylosowana Liczba to :', liczba);
+// }
