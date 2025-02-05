@@ -275,10 +275,19 @@
 //     j++;
 // }
 
-for (let i = 1; i <= 10; i++) {
-    if (i === 5){
-        console.log('Zanaleziono 5, przerywam petle !');
-        break;
-    }
-    console.log('Liczba' , i);
-}
+// for (let i = 1; i <= 10; i++) {
+//     if (i === 5){
+//         console.log('Zanaleziono 5, przerywam petle !');
+//         break;
+//     }
+//     console.log('Liczba' , i);
+// }
+
+// const liczby = [3, 7, 5, 8, 11, 14];
+// for (let liczba of liczby){
+//     if (liczba % 2 === 0){
+//         console.log('Pierwsza parzysta liczba to : ',liczba);
+//         break;
+//     }
+//     console.log('Liczba', liczba)
+// }
