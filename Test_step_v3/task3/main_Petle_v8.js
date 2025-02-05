@@ -218,3 +218,9 @@
 //     liczba = Math.floor(Math.random() * 10) + 1;
 //     console.log('Wylosowana Liczba to :', liczba);
 // }
+
+// let i = 1;
+// do {
+//     console.log('Liczba', i);
+//     i++
+// }while (i <= 5);
