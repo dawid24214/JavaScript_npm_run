@@ -255,3 +255,12 @@
 //         console.log(`Element [${i}][${j}] = ${macierz[i][j]}`);
 //     }
 // }
+
+// let n = 5;
+// for (let i = 1; i < n; i++){
+//     let wiersz = '';
+//     for (let j = 1; j <= i; j++){
+//         wiersz += '**';
+//     }
+//     console.log(wiersz);
+// }
