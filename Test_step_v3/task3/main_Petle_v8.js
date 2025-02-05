@@ -230,3 +230,8 @@
 //     console.log("To sie wykona tylko raz , nawet jezeli warunek jest falszywy !");
 //
 // }while (x < 5);
+
+// for (let i = 1; i <= 3;  i++) {
+//    for (let j = 1; i <= 3; j++)
+//        console.log(`Pierwsza petla: ${i}`, `Druga petla: ${j}`);
+// }
