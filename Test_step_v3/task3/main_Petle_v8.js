@@ -224,3 +224,9 @@
 //     console.log('Liczba', i);
 //     i++
 // }while (i <= 5);
+// let x = 10;
+//
+// do {
+//     console.log("To sie wykona tylko raz , nawet jezeli warunek jest falszywy !");
+//
+// }while (x < 5);
