@@ -205,4 +205,13 @@
 // --------------------
 //     imie: Dawid
 // wiek: 25
-// zawod: Programista
+// // zawod: Programista
+// let i = 1;
+//
+// while (i <= 80) {
+//     console.log('Jestem Robotem: ', i);
+//     i++;
+// }
+
+
+
