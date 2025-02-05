@@ -235,3 +235,23 @@
 //    for (let j = 1; i <= 3; j++)
 //        console.log(`Pierwsza petla: ${i}`, `Druga petla: ${j}`);
 // }
+//
+// for (let i = 1; i <= 5; i++){
+//     let wiersz = '';
+//     for (let j = 1; j <= 5; j++){
+//         wiersz += (i * j) + '\t';
+//     }
+//     console.log(wiersz);
+// }
+
+// const macierz  = [
+//     [1,2,3],
+//     [4,5,6],
+//     [7,8,9]
+// ];
+//
+// for (let i = 0; i < macierz.length; i++){
+//     for (let j = 0; j < macierz[i].length; j++){
+//         console.log(`Element [${i}][${j}] = ${macierz[i][j]}`);
+//     }
+// }
