@@ -310,3 +310,16 @@
 // console.log('Array' , result);
 
 
+function array (n) {
+    const evenNumbers = [];
+    for ( let i = 2; i <= n; i++){
+        if (i % 2 === 0) {
+            evenNumbers.push(i);
+
+        }
+    }
+    return evenNumbers;
+
+}
+const result = array(10);
+console.log(result);
