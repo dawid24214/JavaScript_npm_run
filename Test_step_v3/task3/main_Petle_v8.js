@@ -291,3 +291,22 @@
 //     }
 //     console.log('Liczba', liczba)
 // }
+
+
+//
+// function array (n) {
+//     const numbers = [];
+//
+//     for ( let i = 1; i <= n; i++) {
+//         numbers.push(i);
+//     }
+//
+//     return numbers
+//
+// }
+//
+// const n = 10;
+// const result = array(n);
+// console.log('Array' , result);
+
+
