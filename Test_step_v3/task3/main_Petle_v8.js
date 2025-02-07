@@ -358,3 +358,19 @@
 // }
 // const result = array(20);
 // console.log(result);
+
+
+function fibonaci (n) {
+    const fibonacciSequence = [];
+    if (n >= 1) fibonacciSequence.push(0);
+    if (n >= 2) fibonacciSequence.push(1);
+
+    for (let i = 2; i < n; i++){
+        const nextNumber = fibonacciSequence[i - 1] +fibonacciSequence [i - 2];
+        fibonacciSequence.push(nextNumber);
+    }
+
+    return fibonacciSequence;
+}
+const result = fibonaci(8);
+console.log(result);
