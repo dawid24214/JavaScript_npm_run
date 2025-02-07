@@ -310,16 +310,51 @@
 // console.log('Array' , result);
 
 
-function array (n) {
-    const evenNumbers = [];
-    for ( let i = 2; i <= n; i++){
-        if (i % 2 === 0) {
-            evenNumbers.push(i);
+// function array (n) {
+//     const evenNumbers = [];
+//     for ( let i = 2; i <= n; i++){
+//         if (i % 2 === 0) {
+//             evenNumbers.push(i);
+//
+//         }
+//     }
+//     return evenNumbers;
+//
+// }
+// const result = array(10);
+// console.log(result);
 
-        }
-    }
-    return evenNumbers;
+// function array (n) {
+//     const divisibleByThree = [];
+//     for (let i = 3; i <= n; i++){
+//         if (i % 3 === 0){
+//             divisibleByThree.push(i);
+//         }
+//
+//     }
+//     return divisibleByThree;
+// }
+// const result = array(20);
+// console.log(result);
 
-}
-const result = array(10);
-console.log(result);
+
+
+// function array (n)  {
+//     const primeNumber = [];
+//     for (let i = 2; i <= n; i++){
+//         let isPrime = true;
+//
+//         for (let j = 2; j * j <= i; j++){
+//             if (i % j === 0){
+//                 isPrime = false;
+//                 break;
+//             }
+//         }
+//         if (isPrime){
+//             primeNumber.push(i);
+//         }
+//     }
+//     return primeNumber;
+// }
+// const result = array(20);
+// console.log(result);
