@@ -385,14 +385,40 @@
 // }
 // const result = array(10 , 3);
 // console.log(result);
-function reverseArray(arr){
-    const reverseArray = [];
-    for (let i = arr.length - 1; i >= 0; i--) {
-        reverseArray.push(arr[i]);
-    }
-    return reverseArray
-}
-const numbers = [1, 2, 3, 4, 5];
-const result = reverseArray(numbers);
-console.log(result);
+// function reverseArray(arr){
+//     const reverseArray = [];
+//     for (let i = arr.length - 1; i >= 0; i--) {
+//         reverseArray.push(arr[i]);
+//     }
+//     return reverseArray
+// }
+// const numbers = [1, 2, 3, 4, 5];
+// const result = reverseArray(numbers);
+// console.log(result);
 
+// function filterEvenNumbers(arr) {
+//     return arr.filter = (num => num % 2 === 0);
+// }
+//
+// let numbers = [1 ,2 ,3 ,4 ,5 , 6, 7, 8, 9, 10];
+//
+// let result = filterEvenNumbers(numbers)
+// console.log(result);
+//
+//
+//
+
+function filterEvenNumbers(arr) {
+    const evenNumbers = [];
+     for (let num of arr) {
+         if (num % 2 === 0){
+             evenNumbers.push(num);
+         }
+     }
+     return evenNumbers;
+}
+
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let result = filterEvenNumbers(numbers);
+
+console.log(result);
