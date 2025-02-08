@@ -408,17 +408,45 @@
 //
 //
 
-function filterEvenNumbers(arr) {
-    const evenNumbers = [];
-     for (let num of arr) {
-         if (num % 2 === 0){
-             evenNumbers.push(num);
-         }
-     }
-     return evenNumbers;
-}
+// function filterEvenNumbers(arr) {
+//     const evenNumbers = [];
+//      for (let num of arr) {
+//          if (num % 2 === 0){
+//              evenNumbers.push(num);
+//          }
+//      }
+//      return evenNumbers;
+// }
+//
+// let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let result = filterEvenNumbers(numbers);
+//
+// console.log(result);
 
-let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-let result = filterEvenNumbers(numbers);
 
-console.log(result);
+//
+// function findMaxNumber(arr) {
+//     return Math.max(...arr);
+// }
+// let numbers = [12, 45, 67, 23, 89, 34, 91, 56];
+// let result = findMaxNumber(numbers);
+//
+// console.log('Największa liczba:', result);
+
+
+// function findMaxNumber(arr) {
+//     let maxNumber = arr[0];
+//
+//     for (let num of arr){
+//         if (num > maxNumber){
+//             maxNumber = num;
+//         }
+//     }
+//     return maxNumber;
+//
+// }
+//
+// let numbers = [ 12, 45, 67, 23, 89, 34, 91, 56];
+// let result = findMaxNumber(numbers);
+//
+// console.log('Najwieksza liczba:', result);
