@@ -450,3 +450,22 @@
 // let result = findMaxNumber(numbers);
 //
 // console.log('Najwieksza liczba:', result);
+
+function isPrime(n){
+    if (n < 2)return false;
+
+    for (let i = 2; i * i  <= n ; i++) {
+        if (n % i === 0){
+            return false;
+        }
+    }
+    return true;
+}
+
+let number = 29;
+if (isPrime (number)){
+    console.log(`${number} jest liczba pierwsza.`);
+}else {
+    console.log(`${number} NIE jest liczba pierwsza.`);
+}
+
