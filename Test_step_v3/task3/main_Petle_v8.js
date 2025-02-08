@@ -360,17 +360,28 @@
 // console.log(result);
 
 
-function fibonaci (n) {
-    const fibonacciSequence = [];
-    if (n >= 1) fibonacciSequence.push(0);
-    if (n >= 2) fibonacciSequence.push(1);
+// function fibonaci (n) {
+//     const fibonacciSequence = [];
+//     if (n >= 1) fibonacciSequence.push(0);
+//     if (n >= 2) fibonacciSequence.push(1);
+//
+//     for (let i = 2; i < n; i++){
+//         const nextNumber = fibonacciSequence[i - 1] +fibonacciSequence [i - 2];
+//         fibonacciSequence.push(nextNumber);
+//     }
+//
+//     return fibonacciSequence;
+// }
+// const result = fibonaci(8);
+// console.log(result);
 
-    for (let i = 2; i < n; i++){
-        const nextNumber = fibonacciSequence[i - 1] +fibonacciSequence [i - 2];
-        fibonacciSequence.push(nextNumber);
-    }
-
-    return fibonacciSequence;
-}
-const result = fibonaci(8);
-console.log(result);
+//
+// function array (n , m){
+//     const multiples = [];
+//     for (let i = 1; i <= n; i++){
+//         multiples.push( i * m);
+//     }
+//     return multiples;
+// }
+// const result = array(10 , 3);
+// console.log(result);
