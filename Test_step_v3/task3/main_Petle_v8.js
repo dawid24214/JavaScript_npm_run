@@ -451,21 +451,31 @@
 //
 // console.log('Najwieksza liczba:', result);
 
-function isPrime(n){
-    if (n < 2)return false;
+// function isPrime(n){
+//     if (n < 2)return false;
+//
+//     for (let i = 2; i * i  <= n ; i++) {
+//         if (n % i === 0){
+//             return false;
+//         }
+//     }
+//     return true;
+// }
+//
+// let number = 29;
+// if (isPrime (number)){
+//     console.log(`${number} jest liczba pierwsza.`);
+// }else {
+//     console.log(`${number} NIE jest liczba pierwsza.`);
+// }
 
-    for (let i = 2; i * i  <= n ; i++) {
-        if (n % i === 0){
-            return false;
-        }
-    }
-    return true;
+
+
+function countOccurences(arr, x) {
+    return arr.filter(num => num === x).length;
 }
 
-let number = 29;
-if (isPrime (number)){
-    console.log(`${number} jest liczba pierwsza.`);
-}else {
-    console.log(`${number} NIE jest liczba pierwsza.`);
-}
-
+let numbers = [ 1, 2, 3, 4, 2, 5, 2 , 6, 7, 2, 8, 9, 2];
+let x = 2;
+let  result = countOccurences(numbers,x);
+console.log(`Liczba ${x} wystepuje ${result} razy.`);
