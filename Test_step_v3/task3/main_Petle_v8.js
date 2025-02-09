@@ -471,11 +471,11 @@
 
 
 
-function countOccurences(arr, x) {
-    return arr.filter(num => num === x).length;
-}
-
-let numbers = [ 1, 2, 3, 4, 2, 5, 2 , 6, 7, 2, 8, 9, 2];
-let x = 2;
-let  result = countOccurences(numbers,x);
-console.log(`Liczba ${x} wystepuje ${result} razy.`);
+// function countOccurences(arr, x) {
+//     return arr.filter(num => num === x).length;
+// }
+//
+// let numbers = [ 1, 2, 3, 4, 2, 5, 2 , 6, 7, 2, 8, 9, 2];
+// let x = 2;
+// let  result = countOccurences(numbers,x);
+// console.log(`Liczba ${x} wystepuje ${result} razy.`);
