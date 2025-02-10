@@ -129,3 +129,13 @@
 //
 // }
 // console.log(createArray(5));
+
+// function printArray(array){
+//     for (let i = 0; i < array.length; i++ ){
+//         console.log(array);
+//     }
+// }
+// const people = ['Alicja', 'Bartek' , 'Cezary', 'Dorota', 'Ewa'];
+//
+// printArray(people);
+
