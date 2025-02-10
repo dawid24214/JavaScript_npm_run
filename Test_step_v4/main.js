@@ -38,3 +38,20 @@
 // A function is a set of expressions/statements that perform some task or calculate a value.
 // To use a function, you must first
 //define it somewhere in the scope from which it will be called.
+
+
+
+// function printArrayValues (array) {
+//     for (let i = 0; i < array.length; i++){
+//         console.log(array[i]);
+//     }
+// }
+//
+// const userArray = [ 'Jan', 'Ania', 'Zbyszek', 'Kasia'];
+//
+// printArrayValues(userArray);
+
+function sayHello()  {
+    console.log('Hello');
+}
+sayHello();
