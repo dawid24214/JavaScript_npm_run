@@ -139,17 +139,17 @@
 //
 // printArray(people);
 
-function print2DArray(array) {
-    for (let i = 0; i < array.length; i++){
-        for (let j = 0; j < array[i].length; j++){
-            console.log(array[i][j]);
-        }
-    }
-}
-
-const users = [
-    ['Alicja', 'Bartek'],
-    ['Cezary' , 'Dorota'],
-    ['Ewa' , 'Filip']
-];
-print2DArray(users);
+// function print2DArray(array) {
+//     for (let i = 0; i < array.length; i++){
+//         for (let j = 0; j < array[i].length; j++){
+//             console.log(array[i][j]);
+//         }
+//     }
+// }
+//
+// const users = [
+//     ['Alicja', 'Bartek'],
+//     ['Cezary' , 'Dorota'],
+//     ['Ewa' , 'Filip']
+// ];
+// print2DArray(users);
