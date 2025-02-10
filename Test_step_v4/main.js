@@ -166,3 +166,24 @@
 // const randomNumbers = [12, 45, 78, 34, 99, 23, 56];
 // const result = maxFromArray(randomNumbers);
 // console.log('Najwieksza wartosc : ', result);
+
+
+// function indexOfRepeteatedValue (array){
+//     let firstIndex = -1;
+//     const seenNumbers = new Set();
+//
+//     for (let i = 0; i < array.length; i++){
+//         if (seenNumbers.has(array[i])){
+//             firstIndex = array.indexOf(array[i]);
+//             break;
+//         }
+//         seenNumbers.add(array[i]);
+//     }
+//     console.log('Pierwsza powtarzająca sie liczba ma indeks:', firstIndex);
+//     return firstIndex;
+//
+//
+// }
+// const numbers = [ 2, 4, 5, 2, 3, 5, 1, 2, 4];
+// const result = indexOfRepeteatedValue(numbers);
+// console.log('Wynik', result);
