@@ -61,7 +61,53 @@
 // };
 // foo();
 
-const bar = function () {
-    console.log('Ala');
-};
-bar();
+// const bar = function () {
+//     console.log('Ala');
+// };
+// bar();
+
+// function getName(name) {
+//     console.log(name +  ' Yeah');
+// }
+// getName('Ala');
+// getName('Jan');
+// getName('Marek');
+// getName('Karol');
+// getName(23);
+//
+// function showInfo (name, age, sex){
+//     console.log(name);
+//     console.log(age);
+//     console.log(sex);
+// }
+// showInfo('Ala' , '99', 'female');
+
+// function getName (name) {
+//     console.log(name + 'Yeahh');
+// }
+// getName('Ala');
+//
+// let name = 'Ala';
+//
+// function  addElement(array, value){
+//     array.push(value);
+// }
+// const numbers = [1, 2];
+// addElement(numbers, 3);
+// console.log(numbers);
+
+// function getName(name) {
+//     return name + ' & Leo';
+// }
+// // getName('Kate');
+// let name = getName('Kate');
+// console.log(name);
+
+// function getName (name) {
+//     return name;
+//     let something = 'John'; //Nigdy sie nie wykona
+//
+// }
+// console.log(getName('Kate'));
+
+
