@@ -154,15 +154,15 @@
 // ];
 // print2DArray(users);
 
-function maxFromArray (numbers) {
-    let max = numbers[0];
-    for (let i = 1; i < numbers.length; i++){
-        if (numbers[i] > max){
-            max = numbers[i];
-        }
-    }
-    return max
-}
-const randomNumbers = [12, 45, 78, 34, 99, 23, 56];
-const result = maxFromArray(randomNumbers);
-console.log('Najwieksza wartosc : ', result);
+// function maxFromArray (numbers) {
+//     let max = numbers[0];
+//     for (let i = 1; i < numbers.length; i++){
+//         if (numbers[i] > max){
+//             max = numbers[i];
+//         }
+//     }
+//     return max
+// }
+// const randomNumbers = [12, 45, 78, 34, 99, 23, 56];
+// const result = maxFromArray(randomNumbers);
+// console.log('Najwieksza wartosc : ', result);
