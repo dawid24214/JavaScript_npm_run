@@ -50,8 +50,18 @@
 // const userArray = [ 'Jan', 'Ania', 'Zbyszek', 'Kasia'];
 //
 // printArrayValues(userArray);
+//
+// unction sayHello()  {
+//     console.log('Hello');
+// }
+// sayHello();f
 
-function sayHello()  {
-    console.log('Hello');
-}
-sayHello();
+// const foo = function getName(){
+//     console.log('Ala');
+// };
+// foo();
+
+const bar = function () {
+    console.log('Ala');
+};
+bar();
