@@ -111,3 +111,16 @@
 // console.log(getName('Kate'));
 
 
+// function existInArray (array, elementToCheck) {
+//     for (let i = 0; i < array.length; i++){
+//         if (array[i] === elementToCheck) {
+//             return true;
+//         }
+//     }
+//     return false;
+// }
+//
+// const users = ['Jan', 'Zosia' , 'Kasia'];
+// console.log(existInArray(users, 'Zosia' ));
+//
+
