@@ -124,3 +124,8 @@
 // console.log(existInArray(users, 'Zosia' ));
 //
 
+// function createArray(rows) {
+//     return Array.from({length: rows}, (_, i) => i + 1);
+//
+// }
+// console.log(createArray(5));
