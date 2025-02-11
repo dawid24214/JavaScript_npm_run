@@ -187,3 +187,6 @@
 // const numbers = [ 2, 4, 5, 2, 3, 5, 1, 2, 4];
 // const result = indexOfRepeteatedValue(numbers);
 // console.log('Wynik', result);
+
+// const number = 1299.99;
+// const  text = number.toString();// otrzymamy '1299.99' czyli zmienna zawirajaca tekst
