@@ -215,3 +215,10 @@
 // const text = 'Zupa byla za slona, ale byla za free';
 // const index = text.lastIndexOf('byla');
 // console.log(index)
+
+
+// 4.replace
+
+// const dinner = 'Kanpa z serem';
+// const newText = dinner.replace('serem', 'szynką');
+// console.log(newText);
