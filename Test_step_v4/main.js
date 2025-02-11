@@ -222,3 +222,8 @@
 // const dinner = 'Kanpa z serem';
 // const newText = dinner.replace('serem', 'szynką');
 // console.log(newText);
+
+// // 5.slice
+// const text = 'Myśl pozytywie';
+// const newText = text.slice(0, 6);
+// console.log(newText);
