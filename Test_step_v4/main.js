@@ -212,3 +212,6 @@
 // const text = 'Zupa byla za slona';
 // const index = text.indexOf('');
 // console.log(index);
+// const text = 'Zupa byla za slona, ale byla za free';
+// const index = text.lastIndexOf('byla');
+// console.log(index)
