@@ -206,3 +206,9 @@
 // const text2 = 'z charakterem';
 // const  text3 = text.concat(text2);
 // console.log(text3);
+
+// 3.indexOf
+
+// const text = 'Zupa byla za slona';
+// const index = text.indexOf('');
+// console.log(index);
