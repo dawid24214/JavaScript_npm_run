@@ -190,3 +190,19 @@
 
 // const number = 1299.99;
 // const  text = number.toString();// otrzymamy '1299.99' czyli zmienna zawirajaca tekst
+
+
+//Metody tekstowe
+
+//1.charArt
+//
+// const text = 'bigos';
+// const char = text.charAt(2);
+// console.log(char)
+
+//2 . concat
+
+// const text = 'bigos';
+// const text2 = 'z charakterem';
+// const  text3 = text.concat(text2);
+// console.log(text3);
