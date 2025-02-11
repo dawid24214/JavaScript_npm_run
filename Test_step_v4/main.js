@@ -227,3 +227,8 @@
 // const text = 'Myśl pozytywie';
 // const newText = text.slice(0, 6);
 // console.log(newText);
+
+
+
+
+//addnotacja , skonczylem na substr
