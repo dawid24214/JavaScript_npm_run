@@ -232,3 +232,26 @@
 
 
 //addnotacja , skonczylem na substr
+
+
+// function isEven (number) {
+//     return number % 2 ==== 0;
+// }
+// console.log(isEven(4));
+// console.log(isEven(7));
+
+
+function generationFibonaci(n) {
+    if (n <= 0) return [];
+    if (n === 1) return [0];
+    if (n === 2) return [ 0, 1];
+
+    let sequence = [0, 1];
+    for (let i =  2; i < n; i++){
+        sequence.push(sequence[i - 1] + sequence [i - 2]);
+    }
+    return sequence;
+}
+
+console.log(generationFibonaci(5));
+console.log(generationFibonaci(10));
