@@ -256,3 +256,5 @@
 // console.log(generationFibonaci(5));
 // console.log(generationFibonaci(10));
 
+//zobrazowany zapis petli for
+

@@ -1,0 +1,16 @@
+
+ Zobrazowany zapis petli for w kodzie .
+
+ for (START; WARUNEK; SKOK) {
+     BLOK;
+ }
+
+ Średniki musza zostac na swoim mejscu
+
+ Przykład:
+
+ for(;;){
+ console.log('To jest petla nieskonczona');
+ }
+
+ 
