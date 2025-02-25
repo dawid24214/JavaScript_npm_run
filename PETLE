@@ -27,3 +27,58 @@ console.log('liczba:', i);
 }
 
 
+for z tablica !
+
+const programmingLanguages = ['JavaScript', 'TypeScript','Go'];
+for(let counter = 0; counter < programmingLanguages.length; counter++){
+console.log(programmingLanguages[counter]);
+}
+
+for z tablica (pusta tablica).
+
+
+const numbers = [];
+
+for(let counter = 1; counter >= 9; counter +=2) {
+numbers.push(counter);
+}
+console.log(numbers);
+
+
+const programmingLanguages = ['JavaScript', 'TypeScript','Go'];
+for( const programmingLanguages of programmingLanguages) {
+console.log(programmingLanguages);
+}
+
+const programmingLanguages = ['JavaScript', 'TypeScript', 'Go'];
+
+for (let counter = 0; counter < programmingLanguages.length; counter++) {
+console.log(programmingLanguages[counter]);
+}
+
+
+petla for in
+
+
+
+const programming = ['JavaScrip', 'TypeScript', 'Go'];
+for ( const index in programming){
+console.log(programming[index]);
+}
+Petle While.
+
+let i = 0;
+while (i !== 5){
+    console.log('Nie jestem piatka');
+    i = Math.floor(Math.random()*10);
+}
+Petla do while.
+let i ;
+do{
+console.log('Nie jestem piątką');
+i= Math.floor(Math.random() * 10 );
+
+}While ( i !== 5);
+
+
+

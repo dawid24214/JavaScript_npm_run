@@ -258,3 +258,8 @@
 
 //zobrazowany zapis petli for
 
+// let i = 0;
+// while (i !== 5){
+//     console.log('Nie jestem piatka');
+//     i = Math.floor(Math.random()*10);
+// }
