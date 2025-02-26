@@ -263,3 +263,8 @@
 //     console.log('Nie jestem piatka');
 //     i = Math.floor(Math.random()*10);
 // }
+// for ( let row = 0; row < 2; row++){
+//     for (let col =0; col < 2; col++){
+//         console.log(`Tutaj${row} ,smok${col}`);
+//     }
+// }
