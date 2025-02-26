@@ -268,3 +268,14 @@
 //         console.log(`Tutaj${row} ,smok${col}`);
 //     }
 // }
+const multiArray = [];
+
+for (let row = 0; row < 3; row++){
+    multiArray[row] = [];
+    // console.log(` moje row ${row}`)
+    for (let col = 0; col < 3; col++){
+        console.log(` moje mnozenie ${row} * ${col}`);
+        multiArray[row][col]= row * col;
+    }
+}
+console.log(multiArray)
