@@ -268,14 +268,31 @@
 //         console.log(`Tutaj${row} ,smok${col}`);
 //     }
 // }
-const multiArray = [];
+// const multiArray = [];
+//
+// for (let row = 0; row < 3; row++){
+//     multiArray[row] = [];
+//     // console.log(` moje row ${row}`)
+//     for (let col = 0; col < 3; col++){
+//         console.log(` moje mnozenie ${row} * ${col}`);
+//         multiArray[row][col]= row * col;
+//     }
+// }
+// console.log(multiArray)
 
-for (let row = 0; row < 3; row++){
-    multiArray[row] = [];
-    // console.log(` moje row ${row}`)
-    for (let col = 0; col < 3; col++){
-        console.log(` moje mnozenie ${row} * ${col}`);
-        multiArray[row][col]= row * col;
-    }
-}
-console.log(multiArray)
+// const searchUsername = 'Jan';
+// const users = ['Piotr', 'Kasia', 'Jan', 'Wojtek', 'Zosia'];
+//
+// let index;
+// for (let i = 0; i < users.length; i++){
+//     if (users[i] === searchUsername) {
+//         index = i;
+//         break;
+//     }
+// }
+//
+// if (index){
+//     console.log('Uzytkownik jest pod indeksem' + index);
+// }else {
+//     console.log('Uzytkownika nie znaleziono');
+// }
