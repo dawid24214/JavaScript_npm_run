@@ -298,7 +298,27 @@
 // }
 
 
-function addNumber (a, b){
-    return a + b;
+// const addNumber =(a, b ) => {
+//    if (typeof  a !== 'number' || typeof b !== 'number'){
+//        throw new Error('Argumenty musza byc liczbami .');
+//    }
+//    return a + b ;
+// };
+// try{
+//     console.log(addNumber(5 , 3));
+// }catch (error){
+//     console.error(error.message);
+// }
+
+const multiNumber = (a, b) =>{
+    if (typeof a !== 'number' || typeof b !== 'number'){
+        throw new Error("Argumenty musza byc liczbami .");
+    }
+    return a * b ;
+};
+try{
+    console.log(multiNumber(5 , 3));
+}catch (error){
+    console.error(error.message);
 }
-console.log(addNumber(5, 3));
+
