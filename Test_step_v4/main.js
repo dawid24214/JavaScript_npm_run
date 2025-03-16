@@ -296,3 +296,9 @@
 // }else {
 //     console.log('Uzytkownika nie znaleziono');
 // }
+
+
+function addNumber (a, b){
+    return a + b;
+}
+console.log(addNumber(5, 3));
