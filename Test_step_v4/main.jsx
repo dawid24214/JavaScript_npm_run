@@ -1,3 +1,5 @@
+import './main.scss'
+import react from "@vitejs/plugin-react";
 // const userArray = ['Jan','Ania' , 'Zbyszek', 'Kasia'];
 //
 // const skills = ['JavaScript', 'Python' , 'NodeJS', "Java"];
@@ -310,15 +312,28 @@
 //     console.error(error.message);
 // }
 
-const multiNumber = (a, b) =>{
-    if (typeof a !== 'number' || typeof b !== 'number'){
-        throw new Error("Argumenty musza byc liczbami .");
-    }
-    return a * b ;
-};
-try{
-    console.log(multiNumber(5 , 3));
-}catch (error){
-    console.error(error.message);
-}
+// const multiNumber = (a, b) =>{
+//     if (typeof a !== 'number' || typeof b !== 'number'){
+//         throw new Error("Argumenty musza byc liczbami .");
+//     }
+//     return a * b ;
+// };
+// try{
+//     console.log(multiNumber(5 , 3));
+// }catch (error){
+//     console.error(error.message);
+// }
 
+ const main = () => {
+    return(
+        <div>
+            <p>Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Distinctio
+                excepturi incidunt quod repellat
+                repellendus sequi!</p>
+
+
+        </div>
+    )
+}
+export default main
