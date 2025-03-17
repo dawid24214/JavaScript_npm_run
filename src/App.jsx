@@ -6,13 +6,12 @@ function App() {
 
 
   return (
-      <>
-          <div className='container'>
-              <p className='more-info'>Dawid Grochowski</p>
-              <button className='btn'>More info</button>
-          </div>
+      <div className='body'>
+          <p className="first">To jest pierwszy paragraf.</p>
+          <p className="second">To jest drugi paragraf.</p>
+          <span className="highlight">To jest span.</span>
 
-      </>
+      </div>
   )
 }
 
