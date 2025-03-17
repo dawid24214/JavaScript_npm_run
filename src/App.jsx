@@ -6,12 +6,14 @@ function App() {
 
 
   return (
-    <>
-        <div>
-            <p>Jestem </p>
-        </div>
+      <>
+          <div className='my_class'>
+              <p>Dawid Grochowski</p>
+          </div>
 
-    </>
+          <div className='module box'></div>
+
+      </>
   )
 }
 

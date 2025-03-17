@@ -1,6 +1,47 @@
-p{
-  color: darkgrey;
-  font-size: 36px;
-  border: 1px solid orange ;
-  padding: 8px;
+//p{
+//  color: darkgrey;
+//  font-size: 36px;
+//  border: 1px solid orange ;
+//  padding: 8px;
+//}
+//
+//p{
+//  color: black;
+//  font-size: 12px;
+//  border: 1px solid red;
+//}
+//span{
+//  color: black;
+//  font-size: 18px;
+//  border: 1px solid blue;
+//}
+//p,span{
+//  color: blueviolet;
+//}
+.my_class{
+  font-size: 28px;
+  border: groove;
 }
+p{
+  color: red;
+}
+p{
+  color: #535bf2; //Nadpisze po wyszy kolor
+}
+.module{
+  padding: 10px;
+  background: red;
+  color: red;
+
+}
+.box{
+background: white;
+  color: grey;
+}
+
+div{
+//powysze selektory maja wieksza moc
+  color: yellow;
+  background: black;
+}
+
