@@ -7,11 +7,10 @@ function App() {
 
   return (
       <>
-          <div className='my_class'>
-              <p>Dawid Grochowski</p>
+          <div className='container'>
+              <p className='more-info'>Dawid Grochowski</p>
+              <button className='btn'>More info</button>
           </div>
-
-          <div className='module box'></div>
 
       </>
   )

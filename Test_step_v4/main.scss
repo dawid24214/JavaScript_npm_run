@@ -18,30 +18,29 @@
 //p,span{
 //  color: blueviolet;
 //}
-.my_class{
-  font-size: 28px;
-  border: groove;
-}
-p{
-  color: red;
-}
-p{
-  color: #535bf2; //Nadpisze po wyszy kolor
-}
-.module{
-  padding: 10px;
-  background: red;
-  color: red;
-
-}
-.box{
-background: white;
-  color: grey;
-}
-
-div{
-//powysze selektory maja wieksza moc
-  color: yellow;
-  background: black;
-}
-
+//p{
+//  font-size: 12px;
+//}
+//p{
+//  font-size: 40px;
+//}
+/* Style, które powinny działać */
+//.more-info {
+//  color: blue;
+//  font-size: 18px;
+//
+//}
+//
+//.btn {
+//  background-color: green;
+//  color: white;
+//  padding: 10px;
+//  border: none;
+//  cursor: pointer;
+//}
+//
+///* Style, które przesłaniają powyższe */
+//
+//.container {
+//  background-color: gray;
+//}
