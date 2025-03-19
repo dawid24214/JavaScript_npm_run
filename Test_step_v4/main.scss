@@ -44,6 +44,27 @@
 //.container {
 //  background-color: gray;
 //}
-p ,span{
-  background:yellow;
+//p ,span{
+//  background:yellow;
+//}
+h1 {
+  color: #0048BA;
 }
+
+a {
+  color: blue;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.cta-button {
+  background-color: blue;
+  color: white; /* BŁĄD: powinienpm  być biały */
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px; /* BŁĄD: powinien być 16px */
+}
+
+/* Zadanie: Poprawić kolor tekstu w przycisku i zmienić kolor nagłówka na #0048BA */
+
