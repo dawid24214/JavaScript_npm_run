@@ -1,70 +1,54 @@
-//p{
-//  color: darkgrey;
-//  font-size: 36px;
-//  border: 1px solid orange ;
-//  padding: 8px;
-//}
-//
-//p{
-//  color: black;
-//  font-size: 12px;
-//  border: 1px solid red;
-//}
-//span{
-//  color: black;
-//  font-size: 18px;
-//  border: 1px solid blue;
-//}
-//p,span{
-//  color: blueviolet;
-//}
-//p{
-//  font-size: 12px;
-//}
-//p{
-//  font-size: 40px;
-//}
-/* Style, które powinny działać */
-//.more-info {
-//  color: blue;
-//  font-size: 18px;
+//div{
+//  background-color : rgba(255,255,255) ;// rgb(255,255,255)
+//  color: hsl(0,100%,25%);
 //
 //}
-//
-//.btn {
-//  background-color: green;
-//  color: white;
-//  padding: 10px;
-//  border: none;
-//  cursor: pointer;
+//div{
+//  color: #ff00ff;
+//}
+//div{
+//  color: rgba(255, 0 , 0, .25);
+//  background-color: #fffff0;
 //}
 //
-///* Style, które przesłaniają powyższe */
+////Jednostki sa dzielone na takie dzialy jak
+////absolutny i realatywny
+//div{
+//  font-size: 3em;
+//  height: 100px;
+//}
+////Jednostka absolutna to px
+////Upakowanie pikseli rzedu 96 dpi
 //
-//.container {
-//  background-color: gray;
+//
+////-=-----------------------------------
+////Jednostki realtywne to em
+////1 em = 1 * font-size
+//
+//
+//html{
+//  font-size: 16px;
 //}
-//p ,span{
-//  background:yellow;
+//section{
+//font-size: 20px;
 //}
-h1 {
-  color: #0048BA;
+//h1{
+//  font-size: 2em;
+//}
+//// 2 em  {2 * 20}
+////jednostka rem jednak zabierane dane od naszego dziadka nie rodzica
+////czyli
+//html{
+//  font-size: 14px;
+//}
+//section{
+//  font-size: 20px;
+//}
+//h1{
+//  font-size: 2rem;
+//}
+//// 2rem  {2*14}
+section{
+  width: 35%;
+  border: 5px solid;
 }
-
-a {
-  color: blue;
-  text-decoration: none;
-  font-size: 16px;
-}
-
-.cta-button {
-  background-color: blue;
-  color: white; /* BŁĄD: powinienpm  być biały */
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  font-size: 16px; /* BŁĄD: powinien być 16px */
-}
-
-/* Zadanie: Poprawić kolor tekstu w przycisku i zmienić kolor nagłówka na #0048BA */
-
