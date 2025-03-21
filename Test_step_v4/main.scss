@@ -48,7 +48,49 @@
 //  font-size: 2rem;
 //}
 //// 2rem  {2*14}
+//section{
+//  width: 35%;
+//  border: 5px solid;
+//}
+////zmienne
+//section{
+//  --base-color: hsla(206,100%, 50%, 1);
+//  --base-margin: 10px
+//}
+
+//:root{ //deklaruje zmiene globalne calosciowe
+//  --primary-color: red;
+//  --font-size: 20px;
+//}
+//
+//.main-article{ //deklaruje zmiene lokalne
+//  --bg-color: tomato;
+//  --font-weight:600;
+//
+//}
+//:root{
+//  --primary-color: red;
+//  --font-size:20px;
+//}
+//.link{
+//  color: var(--primary-color);
+//  font-size: calc(var(--font-size) * 1.5);
+//}
+////do metody var mozna jeszcze polaczyc metoda cal , dzieki czemu nasz kod jest bardziej dynamiczny i orginalny
+
+:root{
+  --bg--color:rgba(255, 0, 0, 0.5);
+  --bg--radius: 8px solid blue;
+}
+
 section{
-  width: 35%;
-  border: 5px solid;
+  width:160px ;
+  height: 160px;
+}
+div{
+  width: 2em;
+  height: 2em;
+  background-color: var(--bg--color);
+  border:var(--bg--radius) ;
+
 }

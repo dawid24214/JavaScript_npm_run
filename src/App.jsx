@@ -9,7 +9,7 @@ function App() {
       <div className='body'>
           <section>
               <article>
-                  <div>Dawid Grochowski</div>
+                  <div className='main-article'></div>
               </article>
           </section>
       </div>
