@@ -77,20 +77,31 @@
 //  font-size: calc(var(--font-size) * 1.5);
 //}
 ////do metody var mozna jeszcze polaczyc metoda cal , dzieki czemu nasz kod jest bardziej dynamiczny i orginalny
-
-:root{
-  --bg--color:rgba(255, 0, 0, 0.5);
-  --bg--radius: 8px solid blue;
+//
+//:root{
+//  --bg--color:rgba(255, 0, 0, 0.5);
+//  --bg--radius: 8px solid blue;
+//}
+//
+//section{
+//  width:160px ;
+//  height: 160px;
+//}
+//div{
+//  width: 2em;
+//  height: 2em;
+//  background-color: var(--bg--color);
+//  border:var(--bg--radius) ;
+//
+//}
+.parent{
+  width: 500px;
+  height: 100px;
+  background: linear-gradient(to right, hsl(0, 100%, 50%), hsl(240, 100%, 50%));
 }
 
-section{
-  width:160px ;
-  height: 160px;
-}
-div{
-  width: 2em;
-  height: 2em;
-  background-color: var(--bg--color);
-  border:var(--bg--radius) ;
-
+.children{
+  width: 50%;
+  height: 50vh;
+  background-color: rgba(0, 128, 0) ;
 }

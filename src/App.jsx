@@ -9,7 +9,9 @@ function App() {
       <div className='body'>
           <section>
               <article>
-                  <div className='main-article'></div>
+                  <div className='parent'>
+                      <div className='children'></div>
+                  </div>
               </article>
           </section>
       </div>
