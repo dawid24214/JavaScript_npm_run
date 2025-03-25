@@ -1,16 +1,33 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="pl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-  <title>Document</title>
+  <meta charset="UTF-8" />
+  <title>Test selektorów</title>
+  <link rel="stylesheet" href="main.scss" />
 </head>
 <body>
-<div id="root"></div>
-<!--<script type="module" src="/src/main.jsx"></script>-->
-<script type="module" src="src/main.jsx"></script>
+
+<div class="module">
+  <h2>Moduł 1</h2>
+  <p>Paragraf 1</p>
+  <p>Paragraf 2</p>
+  <p>Paragraf 3</p>
+  <div>
+    <h2>Zagnieżdżony nagłówek</h2>
+    <p>Paragraf zagnieżdżony</p>
+  </div>
+  <div>
+    <h2>Kolejny zagnieżdżony nagłówek</h2>
+    <p>Inny paragraf zagnieżdżony</p>
+  </div>
+</div>
+
+<div class="module">
+  <div>
+    <h2>Zagnieżdżony w drugim module</h2>
+    <p>Paragraf w drugim module</p>
+  </div>
+</div>
+
 </body>
 </html>

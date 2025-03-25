@@ -1,0 +1,25 @@
+div.module > h2 {
+  background-color: rgba(255, 255, 0, 0.5);
+}
+div.module > div{
+  background-color: rgba(255, 255, 0, 0.5);
+}
+
+div.module > div h2{
+  background-color: rgba(255, 255, 0, 0.5);
+}
+div.module > h2 + p{
+  background-color: rgba(255, 255, 0, 0.5);
+  }
+div.module > h2 + p + p + p {
+  background-color: rgba(255, 255, 0, 0.5);
+}
+div.module > h2 ~ p {
+  background-color: rgba(255, 255, 0, 0.5);
+}
+div.module > div:first-of-type h2 {
+  background-color: rgba(255, 255, 0 , 0.5);
+}
+div.module > div:last-of-type h2 + p {
+  background-color: rgba(255,255, 0 , 0.5);
+}
