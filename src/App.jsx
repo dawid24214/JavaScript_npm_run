@@ -7,13 +7,9 @@ function App() {
 
   return (
       <div className='body'>
-          <section>
-              <article>
-                  <div className='parent'>
-                      <div className='children'></div>
-                  </div>
-              </article>
-          </section>
+          <div className='element1'></div>
+          <div className='element2'></div>
+          <div className='elment3'></div>
       </div>
   )
 }

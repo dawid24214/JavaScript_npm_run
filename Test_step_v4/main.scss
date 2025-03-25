@@ -94,14 +94,21 @@
 //  border:var(--bg--radius) ;
 //
 //}
-.parent{
-  width: 500px;
-  height: 100px;
-  background: linear-gradient(to right, hsl(0, 100%, 50%), hsl(240, 100%, 50%));
+//.parent{
+//  width: 500px;
+//  height: 100px;
+//  background: linear-gradient(to right, hsl(0, 100%, 50%), hsl(240, 100%, 50%));
+//}
+//
+//.children{
+//  width: 50%;
+//  height: 50vh;
+//  background-color: rgba(0, 128, 0) ;
+//}
+body{
+  font-size: 10px;
 }
-
-.children{
-  width: 50%;
-  height: 50vh;
-  background-color: rgba(0, 128, 0) ;
+.element1{
+  height: 150px;
+  
 }
