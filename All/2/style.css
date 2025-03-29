@@ -1,6 +1,3 @@
-.btn{
-border: 5px solid silver;
-    background-color: silver;
-    border-radius: 5px;
-    box-shadow:  2px 2px 2px 2px rgba(0, 0, 0, 0.71);
+p > span{
+    color: #FC0031;
 }
