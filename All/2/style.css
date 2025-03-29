@@ -1,11 +1,5 @@
-h2{
-    font-size: 38px;
-    font-family: "Century Gothic", sans-serif;
-    font-weight: unset;
-}
-a{
-    font-family: "Century Gothic", sans-serif;
-    text-decoration: none;
-    color: #32f713;
-    font-size: 1.3rem;
+.box{
+font-size: 58px;
+    background-color:silver;
+    font-family: Georgia,sans-serif;
 }
