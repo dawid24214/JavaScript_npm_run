@@ -1,3 +1,9 @@
-.card > p{
-    color: #646cff;
+a{
+    text-decoration: none;
+}
+
+a::before{
+    content: '';
+    border: 5px solid red;
+    margin-right: 10px;
 }
