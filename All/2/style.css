@@ -1,5 +1,6 @@
-.box{
-font-size: 58px;
-    background-color:silver;
-    font-family: Georgia,sans-serif;
+.btn{
+border: 5px solid silver;
+    background-color: silver;
+    border-radius: 5px;
+    box-shadow:  2px 2px 2px 2px rgba(0, 0, 0, 0.71);
 }
