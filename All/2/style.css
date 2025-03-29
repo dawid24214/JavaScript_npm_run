@@ -1,5 +1,4 @@
-section{
-color: purple;
-font-family: "Arial Black",sans-serif;
-
+a:first-child{
+    text-decoration: none;
+    color: #646cff;
 }
