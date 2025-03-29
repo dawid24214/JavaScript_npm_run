@@ -1,9 +1,5 @@
-.hover-btn{
-    text-decoration: none;
-    font-size: 25px;
-    color: #FC0031;
-    border: 5px solid #5b3477;
-    border-radius: 3px;
-    background-color:silver;
-    text-transform: uppercase;
+.space-btn{
+    margin: 150px;
+    padding: 5px;
+    border: 2px solid red;
 }
