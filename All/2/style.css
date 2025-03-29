@@ -1,5 +1,4 @@
-.content > a{
-text-decoration: none;
-    color:blueviolet ;
-    
+body{
+    width: 600px;
+    background-color:purple;
 }
