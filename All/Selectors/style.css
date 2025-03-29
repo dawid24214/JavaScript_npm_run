@@ -1,0 +1,22 @@
+/* Te style NIE działają, bo są przesłaniane */
+.container .info .more-info {
+    color: green;
+    font-weight: bold;
+}
+
+.container .info .btn {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+/* Te style mają większą specyficzność */
+ .info {
+    color: red;
+}
+
+.container .info {
+    background-color: gray;
+    color: black;
+}
