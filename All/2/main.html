@@ -3,12 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zadanie 28</title>
+    <title>Zadanie 29</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<a href="#" class="hover-btn">Najedź na mnie</a>
+<header>
+    <button class="hamburger" id="hamburger">&#9776;</button>
+    <nav class="nav" id="nav">
+        <ul>
+            <li><a href="#">Start</a></li>
+            <li><a href="#">O nas</a></li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
+    </nav>
+</header>
 
+<script>
+
+    const hamburger = document.getElementById('hamburger');
+    const nav =document.getElementById('nav');
+
+
+    hamburger.addEventListener('click', () => {
+        nav.classList.toggle('active');
+    });
+</script>
 </body>
 </html>
