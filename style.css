@@ -1,3 +1,22 @@
-p,span{
-    background-color:yellow;
+/* Styl domyślny linków */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+/* Styl tytułu */
+.text-link {
+    color: #FC0031;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Styl przycisku */
+.btn-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
 }
