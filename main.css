@@ -1,5 +1,14 @@
-.info-text{
-    background-color: #333;
+.stylowany-paragraf {
+font-size: 20px;
     color: white;
+    background-color:#007BFF;
     padding: 20px;
+    margin: 30px auto;
+    width: 80%;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    font-family: Arial, sans-serif;
+
 }
