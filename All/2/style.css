@@ -1,5 +1,14 @@
-#special-text{
-    font-family: "Arial Black",sans-serif;
-    color: #646cff;
-    font-size: 2rem;
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: #868686;
+
+}
+a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: Tahoma,sans-serif;
+    text-transform: uppercase;
+
 }
