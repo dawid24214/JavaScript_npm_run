@@ -1,11 +1,20 @@
-html, body{
-    height: 100% ;
-    margin: 0 auto;
-}
-.container{
+.grid-layout{
     display: grid;
-    place-items: center;
-    height: 100vh;
-    box-sizing: border-box;
-    border: 2px solid black;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    padding: 20px;
+    height: 100%;
+}
+.grid-layout > div:first-child{
+    background-color: #213547;
+    color: #FC0031;
+    padding: 20px;
+    border-radius: 10px;
+}
+.grid-layout > div:last-child{
+    background-color:aqua;
+    color: #646cff;
+    padding: 20px;
+    border-radius: 10px;
+
 }
