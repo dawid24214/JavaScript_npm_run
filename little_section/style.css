@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #0f2027;
+    color: white;
+}
+.quote-section{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.quote-box{
+    background-color: rgba(255, 255, 255, 0.05);
+    border-left: 5px solid #00bcd4;
+    padding: 1.5rem 2rem;
+    border-radius: 12px;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 188, 212, 0.2);
+}
+.quote-text{
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+.quote-author{
+    font-size: 1rem;
+    color: #80deea;
+}
